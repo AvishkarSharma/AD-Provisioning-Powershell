@@ -62,12 +62,10 @@ This document contains proof of the underlying Windows Server infrastructure con
 
 **DNS Resolution Verification (nslookup):**
 *A successful `nslookup` query confirming the client can resolve the domain name to the Domain Controller's IP address (192.168.2.145). This validates both DNS and network connectivity.*
-
 ![DNS Verify](screenshots/01%20Infrastructure/11-client-dns-verify.png)
 
 **Client Login Screen:**
 *Proof of a successful domain user login on the client machine, confirming that authentication against Active Directory is working correctly.*
-
 ![Client Login](screenshots/01%20Infrastructure/12-client-login.png)
 
 **Whoami Verification:**
@@ -79,12 +77,10 @@ This document contains proof of the underlying Windows Server infrastructure con
 
 **Password Policy:**
 *Configuration of a domain-wide Password Policy enforcing a minimum length of 12 characters and complexity requirements to strengthen security against brute-force attacks.*
-
 ![GPO Password](screenshots/01%20Infrastructure/14-gpo-password-policy.png)
 
 **Account Lockout Policy:**
 *Configuration of an Account Lockout Policy (5 invalid attempts) to automatically lock accounts during a suspected brute-force attack, preventing unauthorized access.*
-
 ![GPO Lockout](screenshots/01%20Infrastructure/15-gpo-lockout-policy.png)
 
 **Block Control Panel GPO (Editor):**
@@ -98,14 +94,17 @@ This document contains proof of the underlying Windows Server infrastructure con
 
 **GPO Restriction Proof (Client):**
 *Client-side verification. Attempting to open the Control Panel returns a "Restrictions" error, proving the GPO was successfully applied and is actively enforcing policy.*
+
 ![GPO Proof](screenshots/01%20Infrastructure/18-client-controlpanel-blocked.png)
 
 ## 6. File Share & NTFS Permissions
 
 **Share Permissions (IT Admin):**
 *Configuration of Share Permissions on the `C:\Data` folder. The `IT Admin` group is granted Full Control at the share level, which is the first layer of access control.*
+
 ![Share Permissions](screenshots/01%20Infrastructure/19-file-share-overview.png)
 
 **NTFS Permissions (Test Account):**
 *Configuration of NTFS (Security) Permissions on the same folder. The `Test Account` is granted specific Read/Write access. This demonstrates the two-layer permission model (Share + NTFS) used in Windows to secure file resources.*
+
 ![NTFS Permissions](screenshots/01%20Infrastructure/20-ntfs-permissions.png)
