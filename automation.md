@@ -40,22 +40,27 @@ This document contains proof of the PowerShell scripts automating Active Directo
 
 **Computers Created (Australia):**
 *Execution proof: The script created 8 computer objects (Workstations and Laptops) and placed them into their respective Australia OUs automatically.*
+
 ![Terminal Computers](screenshots/02%20Automation/5-user-script-executed.png)
 
 **Groups Created (Australia):**
 *Execution proof: The script generated 5 new groups for the Australia region. The summary confirms 0 errors, demonstrating the reliability of the idempotent logic.*
+
 ![Terminal Groups](screenshots/02%20Automation/6-user-script-executed.png)
 
 ## 3. Verification in Active Directory
 
 **Users Verified (Australia):**
 *Graphical verification in Active Directory Users and Computers (ADUC) confirming the users were created and placed in the correct Australia OU.*
+
 ![AD Users](screenshots/02%20Automation/7-desktop-proof.png)
 
 **Computers Verified (Australia):**
 *Graphical verification confirming the computer objects exist within the nested Workstations/Laptops OUs under Australia.*
+
 ![AD Computers](screenshots/02%20Automation/8-user-proof.png)
 
 **Groups Verified (Australia):**
 *Graphical verification of the newly created Security and Distribution groups within the Australia Groups OU.*
+
 ![AD Groups](screenshots/02%20Automation/9-groups-proof.png)
