@@ -13,7 +13,7 @@ This document contains proof of the underlying Windows Server infrastructure con
 ![Users in OU](screenshots/01%20Infrastructure/03-users-in-ou.png)
 
 **Security Groups:**
-![Security Groups](screenshots/01%20Infrastructure/04-security:-groups.png)
+![Security Groups](screenshots/01%20Infrastructure/04-security-groups.png)
 
 ## 2. DNS Configuration
 **Forward Lookup Zones:**
