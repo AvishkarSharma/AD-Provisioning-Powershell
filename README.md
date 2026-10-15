@@ -25,3 +25,40 @@ Manually creating Users, Groups, and Computers for new regional offices is time-
 │   ├── /01-infrastructure (DNS, DHCP, GPO, Permissions)
 │   └── /02-automation (Scripts and Execution)
 └── README.md
+
+
+```markdown
+## Project Proof: Automation Results
+
+### 1. The Scripts
+**Defining the OU Structure:**
+![OU Structure Script](screenshots/02-automation/01-script-ou-structure.png)
+
+**Creating Users from CSV:**
+![User Script](screenshots/02-automation/02-script-users.png)
+
+**Creating Groups from CSV:**
+![Group Script](screenshots/02-automation/03-script-groups.png)
+
+### 2. Script Execution (Terminal)
+**Users Created:**
+![Terminal Users](screenshots/02-automation/04-terminal-users.png)
+
+**Computers Created:**
+![Terminal Computers](screenshots/02-automation/05-terminal-computers.png)
+
+**Groups Created:**
+![Terminal Groups](screenshots/02-automation/06-terminal-groups.png)
+
+### 3. Verification in Active Directory
+**Users in AD:**
+![AD Users](screenshots/02-automation/07-ad-users-after.png)
+
+**Computers in AD:**
+![AD Computers](screenshots/02-automation/08-ad-computers-after.png)
+
+**Groups in AD:**
+![AD Groups](screenshots/02-automation/09-ad-groups-after.png)
+
+---
+*Note: For the underlying Infrastructure setup (DNS, DHCP, GPOs, and NTFS Permissions), please view the [Infrastructure Documentation](INFRASTRUCTURE.md).*
