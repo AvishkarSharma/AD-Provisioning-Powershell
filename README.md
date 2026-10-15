@@ -10,7 +10,7 @@ Manually creating Users, Groups, and Computers for new regional offices is time-
 * **CSV Data Parsing*
 
   
-* Repository Structure
+# Repository Structure
 ```text
 /Active-Directory-Automation
 ├── /scripts
