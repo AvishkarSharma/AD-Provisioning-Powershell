@@ -30,4 +30,4 @@ Manually creating Users, Groups, and Computers for new regional offices is time-
 ## 🔗 Infrastructure Documentation
 To view the proof of the underlying infrastructure setup (DNS, DHCP, GPOs, and NTFS Permissions), please click the link below:
 
-![nfrastructure](infrastructure.md)
+**[Infrastructure](infrastructure.md)**
