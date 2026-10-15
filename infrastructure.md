@@ -53,13 +53,13 @@ This document contains proof of the underlying Windows Server infrastructure con
 ![GPO Lockout](screenshots/01%20Infrastructure/15-gpo-lockout-policy.png)
 
 **Block Control Panel GPO (Editor):**
-![GPO Block Control](screenshots/01%20Infrastructure/16-gpo-block-control-panel.png)
+![GPO Block Control](screenshots/01%20Infrastructure/16-gpo-disable-controlpanel.png)
 
 **GPO Link (SG-Finance-Australia):**
-![GPO Link](screenshots/01%20Infrastructure/17-gpo-link.png)
+![GPO Link](screenshots/01%20Infrastructure/17-gpo-linked-to-sales.png)
 
 **GPO Restriction Proof (Client):**
-![GPO Proof](screenshots/01%20Infrastructure/18-gpo-restriction-proof.png)
+![GPO Proof](screenshots/01%20Infrastructure/18-client-controlpanel-blocked.png)
 
 ## 6. File Share & NTFS Permissions
 **Share Permissions (IT Admin):**
