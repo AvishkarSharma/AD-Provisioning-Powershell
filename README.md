@@ -25,7 +25,7 @@ Manually creating Users, Groups, and Computers for new regional offices is time-
 │   ├── /01-infrastructure (DNS, DHCP, GPO, Permissions)
 │   └── /02-automation (Scripts and Execution)
 └── README.md
-
+```
 
 ---
 
