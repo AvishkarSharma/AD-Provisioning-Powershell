@@ -63,7 +63,7 @@ This document contains proof of the underlying Windows Server infrastructure con
 
 ## 6. File Share & NTFS Permissions
 **Share Permissions (IT Admin):**
-![Share Permissions](screenshots/01%20Infrastructure/19-share-permissions.png)
+![Share Permissions](screenshots/01%20Infrastructure/19-file-share-overview.png)
 
 **NTFS Permissions (Test Account):**
 ![NTFS Permissions](screenshots/01%20Infrastructure/20-ntfs-permissions.png)
