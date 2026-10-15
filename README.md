@@ -32,3 +32,8 @@ Manually creating Users, Groups, and Computers for new regional offices is time-
 ## 🔗 Infrastructure Documentation
 
 [Click here to view the Infrastructure Setup Proof](infrastructure.md)
+
+## 🔗 Automation Documentation
+
+[Click here to view the Automation Scripts](automation.md)
+
