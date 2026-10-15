@@ -8,17 +8,23 @@ This document contains proof of the PowerShell scripts automating Active Directo
 
 **Defining the OU Structure:**
 *The script uses a nested hashtable to define the exact sub-OUs (Workstations, Laptops, IT, Finance) required specifically for the Australia region, ensuring a standardized directory structure.*
+
 ![OU Structure Script](screenshots/02%20Automation/1-scriptfor-ou-creation.png)
+
 👉 **[View the OU Creation Script](scripts/create-ous.ps1)**
 
 **Creating Users from CSV:**
 *This script reads the Australia users CSV file to bulk-create users, dynamically constructing the Distinguished Name (DN) to place each user in their correct departmental OU based on their CSV data.*
+
 ![User Script](screenshots/02%20Automation/2-scriptfor-users-creation.png)
+
 👉 **[View the User Creation Script](scripts/create-users.ps1)**
 
 **Creating Groups from CSV:**
 *Similar to user creation, this script parses the Australia groups CSV to generate Security and Distribution groups, automatically sorting them into the correct sub-OUs.*
+
 ![Group Script](screenshots/02%20Automation/3-scriptfor-groups-creation.png)
+
 👉 **[View the Group Creation Script](scripts/create-group.ps1)**
 
 **Creating Computers from CSV:**
@@ -29,6 +35,7 @@ This document contains proof of the PowerShell scripts automating Active Directo
 
 **Users Created (Australia):**
 *Execution proof: The script successfully provisioned 12 users across 4 different departments in the Australia OU, with built-in error handling skipping any existing accounts.*
+
 ![Terminal Users](screenshots/02%20Automation/4-user-script-executed.png)
 
 **Computers Created (Australia):**
