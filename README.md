@@ -37,3 +37,7 @@ Manually creating Users, Groups, and Computers for new regional offices is time-
 
 [Click here to view the Automation Scripts](automation.md)
 
+## 🔗 Automation Documentation
+
+[Click here to view the Troubleshooting Document](troubleshoot.md)
+
